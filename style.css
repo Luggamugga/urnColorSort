@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+}
+.mainContainer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:100px;
+}
+.colorSortGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:auto;
+    grid-column-gap: 30px;
+    grid-row-gap:20px;
+}
+.colorSortGrid div{
+    height:60px;
+    width:30px;
+}
+.urnContainer{
+    display:flex;
+    flex-direction: column;
+
+    border-bottom:solid 1px black;
+    border-left:solid 1px black;
+    border-right:solid 1px black;
+}
+.urnColor{
+    border-bottom: solid 1px black;
+}
+.buttonContainer{
+    display:block;
+    margin-top:50px;
+}
